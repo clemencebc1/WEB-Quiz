@@ -1,0 +1,13 @@
+[
+    {
+        "Type":"Text",
+        "Question":"Combien de pays existe-t-il ?",
+        "Réponse": 197
+    },
+    {   
+        "Type":"Text",
+        "Question":"Combien de pattes possède un chat ?",
+        "Réponse": 4
+    }
+
+]

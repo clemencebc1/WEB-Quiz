@@ -1,13 +1,17 @@
 [
-    {
-        "Type":"Text",
-        "Question":"Combien de pays existe-t-il ?",
-        "Réponse": 197
+    {   
+        "question":"Combien de pays existe-t-il ?",
+        "type": "text",
+        "name": "mytext",
+        "required": false,
+        "réponse": 197
     },
     {   
-        "Type":"Text",
-        "Question":"Combien de pattes possède un chat ?",
-        "Réponse": 4
+        "question":"Combien de pattes possède un chat ?",
+        "type" : "textarea",
+        "name" : "mytextarea",
+        "required" : true,
+        "réponse": 4
     }
 
 ]

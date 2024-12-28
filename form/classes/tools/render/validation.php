@@ -1,7 +1,7 @@
 <?php
-
+use classes\tools\render\Rendertemplates;
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-    echo "<p>réponse correcte </p>";
+    
     }
 
 ?>

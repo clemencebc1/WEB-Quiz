@@ -22,7 +22,7 @@ $load = new Dataloaderjson('data/data.json');
 $rep = $load->loader();
 
 $render = new Rendertemplates($rep);
-$render->render();
+$render->render_questions();
 
 
 // $form = [

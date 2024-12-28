@@ -14,15 +14,15 @@ class Rendertemplates {
         $this->content = $content;
     }
     public function render() {
-        echo "<form method='POST' action='validation.php'>";
+        echo "<form method='POST' action='classes/tools/render/validation.php'>";
         foreach($this->content as $question){
             echo "<h2>" . $question['question'] . "</h2>";
             $className = 'classes\\tools\\type\\' . ucfirst($question['type']);
             $objet = new $className($question['name'], $question['required']);
             echo $objet->render() . PHP_EOL;
+        }
         echo "<input type='Submit'>";
         echo "</form>";
-        }
     }
 }
 ?>

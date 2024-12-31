@@ -1,0 +1,31 @@
+{
+  "width": 458,
+  "height": 229,
+  "cx": [
+    [ "PARTIE", 38 ],
+    [ "JOUER", 140 ],
+    [ "JOUEUR", 254 ],
+    [ "AVOIR", 38 ],
+    [ "QUIZ", 140 ],
+    [ "POSSEDER", 254 ],
+    [ "QUESTION", 385 ]
+  ],
+  "cy": [
+    [ "PARTIE", 51 ],
+    [ "JOUER", 51 ],
+    [ "JOUEUR", 51 ],
+    [ "AVOIR", 169 ],
+    [ "QUIZ", 169 ],
+    [ "POSSEDER", 169 ],
+    [ "QUESTION", 169 ]
+  ],
+  "shift": [
+    [ "JOUER,JOUEUR,0", 0 ],
+    [ "JOUER,PARTIE,0", 0 ],
+    [ "AVOIR,PARTIE,0", 0 ],
+    [ "AVOIR,QUIZ,0", 0 ],
+    [ "POSSEDER,QUIZ,0", 0 ],
+    [ "POSSEDER,QUESTION,0", 0 ]
+  ],
+  "ratio": []
+}

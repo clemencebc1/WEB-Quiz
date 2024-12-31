@@ -1,0 +1,9 @@
+PARTIE: idpartie, score
+jouer, 0N JOUEUR, 11 PARTIE: date
+JOUEUR: pseudojoueur, nom_joueur, prenom_joueur
+:
+
+avoir, 11 PARTIE, 0N QUIZ
+QUIZ: idquiz, nom_quiz, date_creation
+posseder, 0N QUIZ, 1N QUESTION
+QUESTION: idquestion, titre_question, reponses_correctes, reponses_possibles
